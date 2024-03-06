@@ -1,0 +1,76 @@
+.grid{
+    display: inline-flex;
+    margin-left: 8%;
+    margin-top:5% ;
+  
+}
+.contact{
+    padding: 4em;
+    margin-left: 3%;
+    margin-top: 5%;
+    font-size: 1.1rem;
+    background-color: rgb(242, 206, 206);
+    height: 35ch;
+    width: 80vh;
+}
+.details{
+    font-size: 0.8em;
+    
+}
+.form-wrapper {
+     text-align: center;
+     font-weight: bold;
+     padding:4rem 5rem ;
+     margin: -10px;
+     height: 70vh;
+     background-color: whitesmoke;
+     border-radius: 3px;
+  
+  }
+  .full-input {
+    display:inline-block;
+    padding: 3px;
+    border:0.5px solid black ;
+    overflow: hidden;
+  }
+  input {
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
+    display:block;
+    height: 16px;
+    width: 15rem;
+    overflow: hidden;
+    text-size-adjust: 0.7em;
+  }
+  label {
+    text-align: left;
+    display: block;
+    font-size: 8px;
+    
+    
+  }
+  input::placeholder{
+    font-size: 0.6em;
+  
+  }
+  textarea{
+    width: 36vh;
+    display: block;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+  }
+  textarea::placeholder{
+    font-size: 0.6em;
+  }
+  .c-btn{
+    margin-top: 4%;
+    width: 38.5vh;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: black;
+    height: 2.2em;
+  }

@@ -1,0 +1,80 @@
+@keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    animation-duration: 0.7s;
+    animation-name: fadeInDown;
+    animation-timing-function: ease-out;
+  }
+
+
+
+/*---------- footer area---------*/
+
+.foot{
+    position: relative;
+    margin-top: 3%;
+    background-color: whitesmoke;
+    padding-top: 5%;
+    height: 16em;
+    overflow: hidden;
+   
+   
+}.sub{
+    border: 1px solid black;
+    height: 1.7em;
+    width: 9em;
+}
+#copy{
+    padding-left: 2%;
+    font-size: 0.8em;
+}
+.content{
+    display:flex ;
+    justify-content: space-evenly;
+    text-decoration: none;
+  
+}
+h3{
+   
+    font-size: 2em;
+    font-weight: 500;
+    font-family: 'Old Standard TT', serif;
+    margin-bottom: 3%;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+a{
+    text-decoration:none;
+    font-size: 0.7em;
+    color: black;
+}
+
+input{
+margin-bottom: 10px;
+font-size: 0.9rem;
+padding-left: 5%;
+}
+.btns{
+    background-color:#0ba6ff;
+    width: 120px;
+    height: 35px;
+    color: white;
+    border-radius: 2px;
+    border: none;
+}

@@ -1,0 +1,96 @@
+
+.cont{
+   background-color: rgb(197, 230, 240);
+   padding-top: 3%;
+   z-index: 1;
+   text-align: center;
+   overflow: hidden;
+}
+.cat{
+    align-items: center;
+    text-align: center;
+    color: blue;
+    margin-top: -1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    font-size: 0.9em;
+    
+}
+h2{
+    text-align: center;
+}
+.cards{
+    display:inline-block;
+    justify-content: center;
+    margin: 2em 3em;
+    padding-bottom: 2%;
+    border-radius: 3px;
+    /* transform: scale(1.1); */
+}
+
+.view{
+  background-color:whitesmoke;
+  border-radius: 2px;
+  height: 23rem;
+  width: 16em;
+  text-align: center;
+  font-family: 'Hahmlet', serif;
+  
+}
+.pics{
+    height: 15em;
+    width: 16em;
+    object-fit: cover;
+    margin-bottom: 2%;
+    opacity: 1px;
+    /* transition: 2s all; */
+}
+
+.shop-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 2em;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'Protest Riot', sans-serif;
+    transition: 0.2s ease-in-out;
+}
+.shop-btn:hover{
+   transform: scalex(1.2);
+}
+.back{
+    /* position: sticky; */
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    /* z-index: -1; */
+}
+.parag{
+    color: white;
+    font-size: 5em;
+    font-weight: 500;
+    margin-top: -3.5em;
+    text-align: center;
+    margin-bottom: 2em;
+    font-family: 'Protest Riot', sans-serif;
+}
+.back-img{
+    height: 70vh;
+    width: 100%;
+    object-fit:cover;
+}
+/* ----------------carousel---------------*/
+.carousel{
+    background-color:lavenderblush;
+    text-align: center;
+    padding-top: 10%;
+    height: 70vh;
+    z-index: -1;
+   
+}
+.slide{
+    margin-top: 2%;
+    height: 17vh;
+    width: 50vh;
+}

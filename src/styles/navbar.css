@@ -1,0 +1,53 @@
+.img1{
+    height: 30px;
+    width: 50px;
+}
+
+.container{
+    padding-top: 1%;
+    height: 8vh; 
+    
+}
+
+
+.navbar-brand {
+    color: black;
+    padding-right: 5%;
+    padding-top: 1%;
+    margin-left: -4%;
+    font-family: 'Old Standard TT', serif;
+}
+.navbar-brand:hover{
+    color:red;
+}
+.nav-item{
+    display: flex;
+    margin-left: 80%;
+    gap: 30px;
+    margin-top: -1%;
+    
+}
+.slogan{
+    font-weight: 400;
+    font-size:"9px";
+    font-size: 10px;
+    margin-top: -10%;
+    margin-left: 40%;
+    
+    
+}
+.nav-link{
+    color: black;
+    font-weight: 400;
+    margin-top: -1%;
+    overflow: inherit;
+    
+}
+.nav-link:hover{
+    color: skyblue;
+}
+.bag{
+    height: 40px;
+    width: 30;
+    
+}

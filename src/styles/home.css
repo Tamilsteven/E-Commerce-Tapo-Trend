@@ -1,0 +1,128 @@
+
+.imgs{
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.shop{
+
+    margin-top: -35%;
+    margin-left: 5%;
+}
+.btn{
+    height: 50px;
+    width: 17%;
+    border-radius: 2px;
+    font-weight: 500;
+}
+.btn:hover{
+    background-color:whitesmoke;
+    
+}
+h1{
+    font-weight: 500;
+    font-size: 5.5rem;
+    color: whitesmoke;
+   
+}
+.para{
+    font-weight: 500;
+    color:white; 
+    font-size: 1.3em; 
+    padding-left:1%;
+    
+}
+h3{
+    text-decoration: none;
+}
+.section1,.h2{
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+}
+.section1{
+    margin-top: 10%;
+   
+}
+.service{
+    display: flex;
+    margin-top: 3%;
+    z-index: 1;
+  
+  
+    
+}h4{
+    color: white;
+    font-family: 'Old Standard TT', serif;
+}
+.card{
+   
+    background-color: rgb(32, 32, 71);
+    margin-left: 4.5rem;
+    /* transition: 1s all ; */
+ 
+    
+}
+/* .card:hover{
+     transform: scale(1.1) ;
+} */
+.card-body{
+    
+   padding-top: 3em;
+    height: 15rem;
+    width: 18rem;
+    color:white;
+
+    
+}
+.section2{
+    margin-top: 5%;
+  
+}
+.latest{
+    text-align: center;
+   
+}
+.group{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    height: 20em;
+   
+}
+.gallery{
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 1px;
+    overflow: hidden;
+    
+}
+.title{
+    position:sticky;
+}
+.photos{
+    height: 20rem;
+    width: 17rem;
+    border-radius: 2px;
+    transition: 0.5s all;
+    object-fit:cover;
+}
+.photos:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.title{
+    margin-top: -7em;
+    color: white;
+}
+.product-btn{
+    border: none;
+    height: 2.5em;
+    width: 7em;
+    border-radius: 2px;
+}
+.price{
+    font-weight:500;
+}
